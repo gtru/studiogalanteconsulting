@@ -1,0 +1,81 @@
+.network-page-title {
+    background-image: url('../../images/home-banner.jpg');
+}
+
+.content-body h2, .content-body p {
+    line-height: 6vw;
+    margin-bottom: 10vw;
+    padding: 0 10vw;
+    font-size: 4vw;
+}
+
+.content-body h2 {
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 15vw 10vw;
+    padding-bottom: 3vw;
+    border-bottom: 1px solid #2554a7;
+}
+
+/* Mobile Landscape */
+@media (min-width: 480px) {
+
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .content-body h2, .content-body p {
+        line-height: 25px;
+        margin-bottom: 30px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .content-body h2 {
+        font-size: 22px;
+        margin: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .network-content {
+        flex-direction: row;
+        margin-top: 100px;
+    }
+
+    .network-content-column {
+        position: relative;
+        flex: 2;
+        padding: 0 30px;
+    }
+
+    .network-content-title {
+        flex: 1;
+    }
+
+    .network-content h2 {
+        display: block;
+        width: 200px;
+        height: 180px;
+        color: white;
+        text-align: left;
+        padding: 20px 20px;
+        background: #2554a7;
+    }
+
+    .network-content-column div {
+        position: absolute;
+        top: 90px;
+        left: 120px;
+        z-index: -1;
+        width: 150px;
+        height: 130px;
+        border: 1px solid black;
+    }
+}

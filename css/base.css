@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-self-left {
+    align-self: flex-start;
+}
+
+.flex-self-right {
+    align-self: flex-end;
+}
+
+.hide {
+    display: none;
+}

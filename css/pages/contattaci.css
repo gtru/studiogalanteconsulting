@@ -1,0 +1,287 @@
+.contattaci-page-title {
+    background-image: url('../../images/contatti-banner.jpg');
+}
+
+.contatti-intro {
+    margin-bottom: 10vw;
+    padding-bottom: 10vw;
+    border-bottom: 1px solid #2554a7;
+}
+
+#contatti-intro-text {
+    margin: 5vw 0;
+}
+
+#contatti-intro-text h2 {
+    display: none;
+}
+
+#contatti-info-container {
+    margin-top: 5vw;
+}
+
+#contatti-banner-info {
+    background: #2554a7;
+    padding: 8vw 10vw;
+}
+
+.contatti-banner-info-row {
+    padding: 4vw 0;
+    border-top: 1px solid #1c2e65;
+}
+
+#contatti-banner-info a:first-child .contatti-banner-info-row {
+    padding: 0 0 4vw;
+    border-top: none;
+}
+
+.contatti-banner-info-row-icon {
+    color: #1c2e65;
+    flex: 1;
+    font-size: 6vw;
+}
+
+.contatti-banner-info-row-text {
+    color: white;
+    font-size: 4vw;
+    flex: 8;
+}
+
+.content-body h2, .content-body p {
+    line-height: 6vw;
+    margin-bottom: 2vw;
+    padding: 0 10vw;
+    font-size: 4vw;
+}
+
+.content-body h2 {
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+#contatti-info {
+    position: relative;
+    width: 100%;
+}
+
+#contatti-info-decorator {
+    display: none;
+}
+
+.contatti-content-column-title {
+    margin-bottom: 5vw;
+}
+
+.contatti-form label {
+    display: block;
+    width: 100%;
+}
+
+.contatti-form input {
+    display: block;
+    width: 100%;
+    font-size: 5vw;
+    margin: 4vw 0;
+    padding-bottom: 1vw;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contatti-form textarea {
+    display: block;
+    width: 100%;
+    height: 50vw;
+    font-size: 5vw;
+    margin: 0 0 4vw;
+    border: 1px solid black;
+}
+
+#contatti-form-text-label {
+    margin-top: 3vw;
+}
+
+#contatti-form-text-label p {
+    color: gray;
+    padding: 0;
+    font-size: 5vw;
+}
+
+/*https://www.w3schools.com/howto/howto_css_placeholder.asp*/
+.contatti-form textarea::placeholder, .contatti-form input::placeholder {
+    color: gray;
+}
+
+/*https://stackoverflow.com/questions/3397113/how-to-remove-border-outline-around-text-input-boxes-chrome*/
+.contatti-form textarea:focus, .contatti-form input:focus {
+    outline: none;
+}
+
+#contatti-form-submit {
+    color: white;
+    background: #2554a7;
+    padding: 2vw 4vw;
+}
+
+/* Mobile Landscape */
+@media (min-width: 480px) {
+
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .contatti-page-title {
+        margin-bottom: 30px;
+    }
+
+    .contatti-intro {
+        flex-direction: row;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        min-height: 400px;
+    }
+
+    #contatti-intro-text {
+        width: 500px;
+        margin: 0 120px 0 0;
+    }
+
+    #contatti-intro-text h2 {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .content-body h2, .content-body p {
+        line-height: 25px;
+        margin-bottom: 30px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .content-body h2 {
+        font-size: 35px;
+        text-align: left;
+    }
+
+    #contatti-info-container {
+        position: relative;
+        width: 100%;
+    }
+
+    #contatti-info {
+        flex-grow: 1;
+        width: 450px;
+        margin-left: 80px;
+    }
+
+    #contatti-info-decorator {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: -30px;
+        z-index: -1;
+        width: 450px;
+        height: 100%;
+        border: 1px solid black;
+    }
+
+    #contatti-banner-info {
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .contatti-banner-info-row {
+        padding: 15px 0;
+    }
+
+    #contatti-banner-info a:first-child .contatti-banner-info-row {
+        padding: 0 0 15px;
+    }
+
+    .contatti-banner-info-row-icon {
+        font-size: 25px;
+    }
+
+    .contatti-banner-info-row-text {
+        font-size: 20px;
+    }
+
+    .contatti-content {
+        flex-direction: row;
+        margin-top: 100px;
+    }
+
+    .contatti-content-column {
+        position: relative;
+        flex: 2;
+        padding: 0 30px;
+    }
+
+    .contatti-content-column-title {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .contatti-content h2 {
+        width: 200px;
+        height: 180px;
+        color: white;
+        font-size: 24px;
+        text-align: left;
+        padding: 20px 20px;
+        background: #2554a7;
+    }
+
+    .contatti-content-column-title-decorator {
+        position: absolute;
+        top: 90px;
+        left: 120px;
+        z-index: -1;
+        width: 150px;
+        height: 130px;
+        border: 1px solid black;
+    }
+
+    .contatti-row {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .contatti-form label {
+        margin: 0 40px;
+    }
+
+    .contatti-form input {
+        font-size: 18px;
+        margin: 10px 20px;
+        padding-bottom: 8px;
+    }
+
+    .contatti-form textarea {
+        height: 250px;
+        font-size: 18px;
+        margin: 0 0 30px;
+    }
+
+    #contatti-form-text-label {
+        margin: 0 20px 0 60px;
+    }
+
+    #contatti-form-text-label p {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    #contatti-form-submit {
+        padding: 10px;
+        width: 130px;
+        margin: 0 20px 0 auto;
+    }
+}

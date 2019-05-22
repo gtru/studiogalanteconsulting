@@ -1,0 +1,106 @@
+.professionisti-page-title {
+    background-image: url('../../images/professionisti.jpg');
+}
+
+.professionist,
+.professionista-text {
+    flex: 1;
+}
+
+.professionist {
+    position: relative;
+    margin-top: 4vw;
+    padding-bottom: 50vw;
+}
+
+.professionist img {
+    display: block;
+    width: 60vw;
+    height: 60vw;
+    background: darkgray;
+}
+
+.professionist div {
+    position: absolute;
+    right: 6vw;
+    top: 16vw;
+    z-index: -1;
+    width: 62vw;
+    padding: 50vw 2vw 2vw;
+    border: 1px solid black;
+    color: black;
+    font-size: 8vw;
+    font-weight: bold;
+    line-height: 10vw;
+}
+
+.professionista-paragraph {
+    margin-bottom: 80px;
+}
+
+.professionista-text h2 {
+    font-size: 5vw;
+    font-weight: bold;
+    margin-bottom: 8vw;
+}
+
+.professionista-text p {
+    font-size: 4.3vw;
+    line-height: 6vw;
+}
+
+/* Mobile Landscape */
+@media (min-width: 480px) {
+
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .professionista-list {
+        flex-direction: row;
+    }
+
+    .professionist {
+        margin-top: 0;
+        padding-bottom: 0;
+        min-width: 400px;
+    }
+
+    .professionist img {
+        width: 250px;
+        height: 350px;
+    }
+
+    .professionist div {
+        left: 60px;
+        top: 100px;
+        width: 250px;
+        height: 350px;
+        padding: 270px 20px 20px 20px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .professionista-text {
+        flex: 4;
+    }
+
+    .professionista-paragraph {
+        margin-bottom: 80px;
+    }
+
+    .professionista-text h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .professionista-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

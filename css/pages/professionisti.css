@@ -1,0 +1,83 @@
+.professionisti-page-title {
+    background-image: url('../../images/professionisti.jpg');
+}
+
+.professionisti-list div {
+    flex: 1;
+}
+
+.professionisti-text {
+    margin-bottom: 4vw;
+}
+
+.professionist {
+    position: relative;
+    margin-top: 20vw;
+    padding-bottom: 10vw;
+}
+
+.professionist img {
+    display: block;
+    width: 60vw;
+    height: 60vw;
+    margin: 0 auto;
+    background: darkgray;
+}
+
+.professionist div {
+    position: absolute;
+    left: 3vw;
+    bottom: 0;
+    width: 58vw;
+    padding: 10vw 2vw 2vw;
+    border: 1px solid black;
+    color: black;
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+
+/* Mobile Landscape */
+@media (min-width: 480px) {
+
+}
+
+/* Tablet Portrait */
+@media (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .professionisti-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .professionisti-list div {
+        flex: 0 0 33%;
+        margin-top: 60px;
+    }
+
+    .professionisti-text {
+        margin-bottom: 4vw;
+    }
+
+    .professionist {
+        margin-top: 0;
+        padding-bottom: 60px;
+    }
+
+    .professionist img {
+        width: 250px;
+        height: 300px;
+        margin: 0 0 0 60px;
+    }
+
+    .professionist div {
+        left: 20px;
+        bottom: -5px;
+        width: 250px;
+        padding: 80px 60px 30px 20px;
+        font-size: 18px;
+    }
+}
